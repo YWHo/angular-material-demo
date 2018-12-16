@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatCheckboxModule, MatRadioModule, MatSelectModule } from '@angular/material';
+import { MatButtonModule, MatCheckboxModule, MatInputModule, MatRadioModule, MatSelectModule } from '@angular/material';
 
 
 @NgModule({
@@ -17,6 +17,7 @@ import { MatButtonModule, MatCheckboxModule, MatRadioModule, MatSelectModule } f
     FormsModule,
     MatButtonModule,
     MatCheckboxModule,
+    MatInputModule,
     MatRadioModule,
     MatSelectModule
   ],
